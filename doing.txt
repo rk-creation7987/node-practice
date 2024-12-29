@@ -1,0 +1,14 @@
+npm i -> for create node_modules folder 
+
+------------------------------------------------
+For run the node js project -> node index.php
+------------------------------------------------
+you need to run restart the server again & again 
+Nodemon used to restart your server without do anything
+
+For install -> npm install -g nodemon
+for run nodemon -> nodemon index.js
+------------------------------------------------
+
+
+Narsinghpur 

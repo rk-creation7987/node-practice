@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="col-12">
+      <!-- Success Message -->
+      <% if (success) { %>
+        <div class="alert alert-success alert-dismissible fade show text-capitalize" role="alert">
+          <strong><%= message %></strong>
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      <% } %>
+  
+      <!-- Error Message -->
+      <% if (error) { %>
+        <div class="alert alert-danger alert-dismissible fade show text-capitalize" role="alert">
+          <strong><%= errorMessage %></strong>
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      <% } %>
+    </div>
+  </div>
+  
